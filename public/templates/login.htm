@@ -1,0 +1,26 @@
+<div class="loginBlock">
+    <div class="container">
+        <ul>
+            <li>
+                <input type="text" id="uid" class="form-control" placeholder="User ID">
+            </li>
+            <li>
+                <input type="password" id="accountPwd" class="form-control" placeholder="Account Password">
+            </li>
+            <li>
+                <input class="userCaptchaText" type="text"placeholder="Enter Text" onkeyup="validedCaptchaText()">
+            </li>
+            <li>
+                <input type="button" onclick="validateUserDetails()" value="Login" class="btn btn-primary" id="loginBtn" disabled>
+            </li>
+            <li>
+                <a href="#newSignup" onclick="loadSelectedPage('signup')" class="link-underline-primary">New User?</a>
+                <a href="#forgotPwd" onclick="loadSelectedPage('forgotpwd')" class="link-underline-primary">Forgot Password</a>
+            </li>
+            <li class="invalidCredentials">
+                User Details Are Invalid*
+            </li>
+        </ul>
+    </div>
+</div>
+</div>

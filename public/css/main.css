@@ -1,0 +1,91 @@
+.appLogo {
+    width: 60px;
+    height: 60px;
+    border-radius: 11px;
+}
+
+header {
+    background-color: aqua;
+    background-image: linear-gradient(aqua, rgb(82, 102, 107));
+    box-shadow: 2px 2px 2px #ccc;
+    padding: 5px;
+}
+
+.pageMainBlock {
+    min-height: 550px;
+    background-color: #ccc;
+}
+
+.appTitle{
+    color: rgb(44, 44, 44);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+    background-color: #e4b537;
+}
+
+.loginBlock{
+    border: 1px solid;
+    margin: 10px auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5p #fff;
+    height: 300px;
+    width: 400px;
+    background-color: bisque;
+}
+.loginBlock li {
+    list-style: none;
+    margin: 10px;
+}
+
+.invalidCredentials{
+    color: red;
+    text-align: center;
+    display: none;
+    font-size: 15px;
+}
+.pdetailsBlock{
+    display: grid;
+    grid-template-columns: 200px auto;
+}
+.categoryList{
+    border-right: 1px solid;
+    min-height: 500px;
+    margin: 5px;
+    padding: 5px;
+}
+.categoryList ul li{
+    list-style: none;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid;
+}
+.categoryList ul li:hover{
+   background-color: aquamarine;
+   cursor: pointer;
+}
+
+#productDetailsContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.productTemplate{
+    width: 260px;
+    /* border: 2px solid; */
+    /* box-sizing: border-box; */
+    box-shadow: 3px 1px 7px 2px #a85454;
+    padding: 0 10px;
+    margin: 20px;
+    word-wrap: break-word;
+}
+.productTemplate li{
+    list-style: none;
+}
+.productTemplate li img{
+    width: 120px;
+    height: 130px;
+}
